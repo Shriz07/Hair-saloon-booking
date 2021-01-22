@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ServerAppController">
+   <children>
+      <ScrollPane fx:id="logPane" layoutX="392.0" prefHeight="400.0" prefWidth="226.0">
+         <content>
+            <ListView fx:id="log" prefHeight="388.0" prefWidth="214.0" />
+         </content>
+      </ScrollPane>
+      <TableView fx:id="table" prefHeight="400.0" prefWidth="392.0">
+        <columns>
+          <TableColumn fx:id="hourColumn" prefWidth="130.0" text="Hour" />
+          <TableColumn fx:id="bookedColumn" prefWidth="130.0" text="Booked" />
+            <TableColumn fx:id="nameColumn" prefWidth="130.0" text="Name" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
