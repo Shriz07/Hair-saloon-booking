@@ -1,5 +1,5 @@
 # Hair-saloon-booking
-Server-client program to book hair saloon visit written in Java
+Server-client program to book hair saloon visit written in Java using JavaFX
 
 
 ##                                                           SERVER VIEW
